@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- App name Textview: Displays the name of the app at the top -->
+    <TextView
+        android:id="@+id/App_Name"
+        android:textColor="@color/black"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/app_name" />
+
+    <!-- App Logo ImageView: Displays the app logo below the app name -->
+    <ImageView
+        android:id="@+id/inventory_logo"
+        android:src="@drawable/inventory_logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Username EditText: Input field for username -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inventory_logo"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/username"
+        android:inputType="text" />
+
+    <!-- Password EditText: Input field for password -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <!-- Login Button: Button for users to login -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login" />
+
+    <!-- Login Button: Button for users to login -->
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_button"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/create_new_account" />
+</RelativeLayout>
