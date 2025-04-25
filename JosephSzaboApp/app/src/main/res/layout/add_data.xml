@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title TextView: Add Item title -->
+    <TextView
+        android:id="@+id/add_remove_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="@string/add"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Item Name EditText: Input field for the name of the item -->
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Item Name" />
+
+    <!-- Item Quantity EditText: Input field for the quantity of the item -->
+    <EditText
+        android:id="@+id/item_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <!-- Item Description EditText: Input field for the unit of measurement -->
+    <EditText
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Unit of Measurement" />
+
+    <!-- Submit Button: Button for submitting the form -->
+    <Button
+        android:layout_marginLeft="85dp"
+        android:id="@+id/add_item_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="24dp"
+        android:onClick="addItem"/>
+
+</LinearLayout>

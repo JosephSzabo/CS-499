@@ -1,0 +1,53 @@
+<!-- activity_edit_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="96dp"
+    android:padding="16dp">
+<!-- Title TextView: Edit Item title -->
+    <TextView
+        android:id="@+id/title_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Edit_Title"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Item Name EditText: Input field for the item's name -->
+    <EditText
+        android:id="@+id/item_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:inputType="text" />
+
+    <!-- Item Quantity EditText: Input field for the item's quantity -->
+    <EditText
+        android:id="@+id/item_quantity_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:inputType="number" />
+
+    <!-- Item Unit EditText: Input field for the unit of measurement -->
+    <EditText
+        android:id="@+id/item_unit_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unit"
+        android:inputType="text" />
+
+    <!-- Save Button: Button for saving the edited item -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:gravity="center"
+        android:onClick="saveItem" />
+
+
+</LinearLayout>
