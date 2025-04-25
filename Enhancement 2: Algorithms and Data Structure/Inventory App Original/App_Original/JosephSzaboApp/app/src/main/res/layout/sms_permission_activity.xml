@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="96dp"
+    android:layout_height="match_parent">
+    <!-- Title for the SMS Permission Request -->
+    <TextView
+        android:id="@+id/permission_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS Permission Required"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <!-- Description of the SMS Permission -->
+    <TextView
+        android:id="@+id/permission_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app needs access to SMS services to send inventory alerts."
+        android:layout_below="@id/permission_title"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Button to Grant Permission -->
+    <Button
+        android:id="@+id/grant_permission_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grant Permission"
+        android:layout_below="@id/permission_description"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Button to Deny Permission -->
+    <Button
+        android:id="@+id/deny_permission_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deny"
+        android:layout_below="@id/grant_permission_button"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
