@@ -13,8 +13,8 @@ In this repository, you will find:
 
 For an interactive experience, please visit my [ePortfolio](https://josephszabo.github.io/) which includes:
 - My **Self-Assessment**: Reflecting on my journey, challenges, and milestones achieved throughout the program.
-- **Code Review Video**: A walkthrough of one of my key projects, explaining the design decisions and the technical implementation.
-- **Artifacts**: Both the original and enhanced versions, showcasing the depth of my knowledge in various areas of computer science, including software development, data structures, and algorithms.
+- **Code Review Video**: A walkthrough of one of my projects, explaining the design decisions and the technical implementation.
+- **Artifacts**: Both the original and enhanced versions, showcasing the depth of my knowledge in various areas of computer science, including software design and engineering, algorithms and data structures, and databases.
 
 ## Code Review
 
